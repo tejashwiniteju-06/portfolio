@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; object-src 'self'; base-uri 'self'; form-action 'none'">
+<title>AI-Powered Email Security Platform | Tejashwini S</title>
+<meta name="description" content="Threat detection module for phishing emails that don&#x27;t look suspicious">
+<script src="boot.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="wrap nav-in">
+    <a href="index.html#home" class="brand" aria-label="Home">T<span>.</span></a>
+    <nav class="nav-menu" aria-label="Main"><a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a class="active" href="index.html#projects">Projects</a><a href="index.html#resume">Resume</a><a href="index.html#certificates">Certificates</a><a href="index.html#contact">Contact</a></nav>
+    <div class="nav-right"><a class="btn btn-sm" href="assets/Tejashwini_S_Resume.pdf" download><i class="fa-solid fa-download"></i> Resume</a></div>
+  </div>
+</header>
+<main>
+<section class="pj">
+  <div class="wrap">
+    <p class="pj-crumb"><a href="index.html">Home</a> / <a href="index.html#projects">Projects</a> / <span>AI-Powered Email Security Platform</span></p>
+    <div class="pj-hero">
+      <span class="ico c1"><i class="fa-solid fa-shield-halved"></i></span>
+      <span class="kind">Hackathon team project</span>
+      <h1>AI-Powered Email Security Platform</h1>
+      <p class="sub">Threat detection module for phishing emails that don&#x27;t look suspicious</p>
+      <div class="actions"><a class="btn" href="https://email-detector-wcy4.onrender.com" target="_blank" rel="noopener noreferrer">Try the live prototype <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a class="btn btn-outline" href="index.html#projects"><i class="fa-solid fa-arrow-left"></i> All projects</a></div>
+    </div>
+    <div class="pj-stack"><section class="pj-sec" id="facts"><h2><i class="fa-solid fa-list-check"></i> Project facts</h2><dl class="pj-facts"><div><dt>My part</dt><dd>Threat Detection module</dd></div><div><dt>Team</dt><dd>Hackathon team</dd></div><div><dt>Status</dt><dd>Live prototype on Render</dd></div><div><dt>Type</dt><dd>Hackathon team project</dd></div></dl></section><section class="pj-sec" id="overview"><h2><i class="fa-solid fa-circle-info"></i> Overview</h2><p>Phishing emails don&#x27;t always look suspicious. Many are written to look completely normal, so simple filters can let them through.</p><p>Our hackathon team built an AI-powered email security platform. I built its Threat Detection module, which combines three detection approaches into one threat probability and a final classification.</p></section><section class="pj-sec" id="challenge"><h2><i class="fa-solid fa-triangle-exclamation"></i> The challenge</h2><p>Catch threats that are not obviously suspicious. A single check is easy to get around, so the module looks at the email from three different angles and merges what each one finds.</p></section><section class="pj-sec" id="how"><h2><i class="fa-solid fa-gears"></i> How it works</h2><ol class="steps"><li><strong>Header analysis</strong>An XGBoost model examines the email header and contributes its own signal to the final result.</li><li><strong>Language analysis</strong>DistilRoBERTa reads the subject and body of the email and looks for suspicious language.</li><li><strong>Rule-based checks</strong>Fixed rules look for risky URLs, urgency and requests for sensitive information.</li><li><strong>Final verdict</strong>The three signals are combined into a single threat probability and a final classification.</li></ol></section><section class="pj-sec" id="contribution"><h2><i class="fa-solid fa-user-check"></i> What I contributed</h2><ul class="check"><li>Built the Threat Detection module of the platform</li><li>Combined the header, language and rule-based approaches into one probability and final classification</li><li>Deployed the module as a live prototype that anyone can try</li></ul><p class="note">This module is one piece of a larger platform and works best alongside the other components our team built.</p></section><section class="pj-sec" id="tech"><h2><i class="fa-solid fa-layer-group"></i> Tech stack</h2><ul class="tags"><li>Python</li><li>XGBoost</li><li>DistilRoBERTa</li><li>NLP</li><li>Rule-based detection</li></ul></section></div>
+    <nav class="pj-nav" aria-label="Other projects"><a href="project-resume-analyzer.html"><i class="fa-solid fa-arrow-left"></i> AI-Powered Resume Analyzer &amp; Builder</a><a href="project-movie-recommender.html">AI-Powered Movie &amp; OTT Recommendation System <i class="fa-solid fa-arrow-right"></i></a></nav>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="index.html#home" class="brand" aria-label="Back to top">T<span>.</span></a>
+        <p>Tejashwini S</p>
+        <small>Final-year Computer Science Engineering student building machine learning and AI projects.</small>
+      </div>
+      <nav class="foot-col" aria-label="Footer">
+        <h4>Quick links</h4>
+        <a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="index.html#projects">Projects</a><a href="index.html#resume">Resume</a><a href="index.html#certificates">Certificates</a>
+      </nav>
+      <div class="foot-col">
+        <h4>Get in touch</h4>
+        <a href="mailto:teju84531@gmail.com"><i class="fa-solid fa-envelope"></i>teju84531@gmail.com</a>
+        <span><i class="fa-solid fa-location-dot"></i>Kolar, Karnataka</span>
+        <a href="https://www.linkedin.com/in/tejashwini-s-62763b397/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+        <a href="https://github.com/tejashwiniteju-06" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i>GitHub</a>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>&copy; <span id="year"></span> Tejashwini S. All rights reserved.</span><span>Designed &amp; developed by Tejashwini S</span></div>
+  </div>
+</footer>
+<script src="project.js"></script>
+<script src="embers.js"></script>
+</body>
+</html>
